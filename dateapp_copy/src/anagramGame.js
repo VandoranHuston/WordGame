@@ -42,6 +42,7 @@ function AnagramGame(){
         setShowVideo(true)
         setEnteredLetters(['-', '-', '-', '-', '-']);
         setIndex(0);
+        return;
     }
     
     return (
