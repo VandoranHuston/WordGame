@@ -40,6 +40,8 @@ function AnagramGame(){
         }
         setMessage(correctImage)
         setShowVideo(true)
+        setEnteredLetters(['-', '-', '-', '-', '-']);
+        setIndex(0);
     }
     
     return (
