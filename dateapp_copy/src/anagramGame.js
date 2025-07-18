@@ -57,38 +57,33 @@ function AnagramGame(){
             </div>
             <div className="word-box">
                 <buttonContainer>
-                    <button className="letter-buttons-top">
-                        <img src = {enteredLetters[0]} />
+                    <button className="letter-buttons-top">{enteredLetters[0]}
                     </button>
-                    <button className="letter-buttons-top">
-                        <img src = {enteredLetters[1]}/>
+                    <button className="letter-buttons-top">{enteredLetters[1]}
                     </button>
-                    <button className="letter-buttons-top">
-                        <img src = {enteredLetters[2]}/>
+                    <button className="letter-buttons-top">{enteredLetters[2]}
                     </button>
-                    <button className="letter-buttons-top">
-                        <img src = {enteredLetters[3]}/>
+                    <button className="letter-buttons-top">{enteredLetters[3]}
                     </button>
-                    <button className="letter-buttons-top">
-                        <img src = {enteredLetters[4]}/>
+                    <button className="letter-buttons-top">{enteredLetters[4]}
                     </button>
                 </buttonContainer>
             </div>
             <div>
                 <buttonContainer>
-                    <button className="letter-buttons" onClick={() => letterClick({pixelS})}>
+                    <button className="letter-buttons" onClick={() => letterClick('S')}>
                         <img src={pixelS}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick({pixelI})}>
+                    <button className="letter-buttons" onClick={() => letterClick('I')}>
                         <img src={pixelI}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick({pixelA})}>
+                    <button className="letter-buttons" onClick={() => letterClick('A')}>
                         <img src={pixelA}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick({pixelR})}>
+                    <button className="letter-buttons" onClick={() => letterClick('R')}>
                         <img src={pixelR}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick({pixelE})}>
+                    <button className="letter-buttons" onClick={() => letterClick('E')}>
                         <img src={pixelE}></img>
                     </button>
                 </buttonContainer>
