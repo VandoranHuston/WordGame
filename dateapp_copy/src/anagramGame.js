@@ -18,7 +18,7 @@ import VideoModal from './videoModal'
 function AnagramGame(){
     const [enteredLetters, setEnteredLetters] = useState(['-', '-', '-', '-', '-']);
     const [index, setIndex] = useState(0);
-    const answer = ['A', 'R', 'I', 'S', 'E'];
+    const answer = [pixelA, pixelR, pixelI, pixelS, pixelE];
     const [message, setMessage] = useState(guessWordImage);
     const [showVideo, setShowVideo] = useState(false);
 
@@ -57,33 +57,38 @@ function AnagramGame(){
             </div>
             <div className="word-box">
                 <buttonContainer>
-                    <button className="letter-buttons-top">{enteredLetters[0]}
+                    <button className="letter-buttons-top">
+                        <img src = {enteredLetters[0]} />
                     </button>
-                    <button className="letter-buttons-top">{enteredLetters[1]}
+                    <button className="letter-buttons-top">
+                        <img src = {enteredLetters[1]}/>
                     </button>
-                    <button className="letter-buttons-top">{enteredLetters[2]}
+                    <button className="letter-buttons-top">
+                        <img src = {enteredLetters[2]}/>
                     </button>
-                    <button className="letter-buttons-top">{enteredLetters[3]}
+                    <button className="letter-buttons-top">
+                        <img src = {enteredLetters[3]}/>
                     </button>
-                    <button className="letter-buttons-top">{enteredLetters[4]}
+                    <button className="letter-buttons-top">
+                        <img src = {enteredLetters[4]}/>
                     </button>
                 </buttonContainer>
             </div>
             <div>
                 <buttonContainer>
-                    <button className="letter-buttons" onClick={() => letterClick('S')}>
+                    <button className="letter-buttons" onClick={() => letterClick({pixelS})}>
                         <img src={pixelS}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick('I')}>
+                    <button className="letter-buttons" onClick={() => letterClick({pixelI})}>
                         <img src={pixelI}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick('A')}>
+                    <button className="letter-buttons" onClick={() => letterClick({pixelA})}>
                         <img src={pixelA}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick('R')}>
+                    <button className="letter-buttons" onClick={() => letterClick({pixelR})}>
                         <img src={pixelR}></img>
                     </button>
-                    <button className="letter-buttons" onClick={() => letterClick('E')}>
+                    <button className="letter-buttons" onClick={() => letterClick({pixelE})}>
                         <img src={pixelE}></img>
                     </button>
                 </buttonContainer>
