@@ -18,7 +18,7 @@ import VideoModal from './videoModal'
 function AnagramGame(){
     const [enteredLetters, setEnteredLetters] = useState(['-', '-', '-', '-', '-']);
     const [index, setIndex] = useState(0);
-    const answer = [pixelA, pixelR, pixelI, pixelS, pixelE];
+    const answer = ['A', 'R', 'I', 'S', 'E'];
     const [message, setMessage] = useState(guessWordImage);
     const [showVideo, setShowVideo] = useState(false);
 
