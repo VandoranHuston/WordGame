@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/WordGame/static/css/main.88681619.css",
-    "main.js": "/WordGame/static/js/main.a334b2a4.js",
+    "main.js": "/WordGame/static/js/main.064da8ea.js",
     "static/js/453.7c65cb56.chunk.js": "/WordGame/static/js/453.7c65cb56.chunk.js",
-    "static/media/theVideo.mp4": "/WordGame/static/media/theVideo.19ecb3766e59f1f878bc.mp4",
+    "static/media/theVideo.mp4": "/WordGame/static/media/theVideo.686b933dad1ff43ce2a4.mp4",
     "static/media/demonslayer.jpeg": "/WordGame/static/media/demonslayer.e065485854ceeb733ebe.jpeg",
     "static/media/backgroundImage.jpg": "/WordGame/static/media/backgroundImage.9980aa9492b45d8f8bf4.jpg",
     "static/media/jinwoo-cutout.png": "/WordGame/static/media/jinwoo-cutout.56abf4d5e36ff66f5da3.png",
     "static/media/logo.svg": "/WordGame/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/WordGame/index.html",
     "main.88681619.css.map": "/WordGame/static/css/main.88681619.css.map",
-    "main.a334b2a4.js.map": "/WordGame/static/js/main.a334b2a4.js.map",
+    "main.064da8ea.js.map": "/WordGame/static/js/main.064da8ea.js.map",
     "453.7c65cb56.chunk.js.map": "/WordGame/static/js/453.7c65cb56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88681619.css",
-    "static/js/main.a334b2a4.js"
+    "static/js/main.064da8ea.js"
   ]
 }
